@@ -1,0 +1,23 @@
+id_dato,caso,correo,contrasena,estado_cuenta,particion,resultado_esperado
+D-001,ACC-ING-001,ingreso.usuario@dsqa.test,Llave8Norte,Activa,Válido · usuario,Sesión iniciada
+D-002,ACC-ING-002,ingreso.admin@dsqa.test,Torre5Oeste,Activa,Válido · administrador,Sesión iniciada
+D-003,ACC-ING-003,ingreso.usuario@dsqa.test,Llave8Norte,Activa,Válido con destino Perfil,Se abre Perfil
+D-004,ACC-ING-004,no.existe.g1@dsqa.test,Llave8Norte,No existe,Correo inexistente,Rechazado
+D-005A,ACC-ING-005,no.existe.g1@dsqa.test,Llave8Norte,No existe,Referencia del mensaje,Rechazado
+D-005B,ACC-ING-005,ingreso.usuario@dsqa.test,Llave8Sur,Activa,Contraseña distinta,Rechazado (mismo mensaje)
+D-005C,ACC-ING-005,ingreso.usuario@dsqa.test,llave8norte,Activa,Otra capitalización,Rechazado (mismo mensaje)
+D-006,ACC-ING-006,cuenta.inactiva@dsqa.test,Pausa6Gris,Inactiva,Cuenta inactiva,Rechazado
+D-007A,ACC-ING-007,limite.ingreso@dsqa.test,Ritmo4Seis,Activa,Solicitud 1/min,Sesión iniciada
+D-007B,ACC-ING-007,limite.ingreso@dsqa.test,Ritmo4Seis,Activa,Solicitud 2/min,Sesión iniciada
+D-007C,ACC-ING-007,limite.ingreso@dsqa.test,Ritmo4Seis,Activa,Solicitud 3/min,Sesión iniciada
+D-007D,ACC-ING-007,limite.ingreso@dsqa.test,Ritmo4Seis,Activa,Solicitud 4/min,Sesión iniciada
+D-007E,ACC-ING-007,limite.ingreso@dsqa.test,Ritmo4Seis,Activa,Solicitud 5/min,Sesión iniciada
+D-007F,ACC-ING-007,limite.ingreso@dsqa.test,Ritmo4Seis,Activa,Solicitud 6/min,Rechazado (frecuencia)
+D-008A,ACC-ING-008,ingreso.soporte@dsqa.test,Duna3Plata,Activa,Aceptado + inspección,Sesión sin contraseña en respuesta
+D-008B,ACC-ING-008,ingreso.soporte@dsqa.test,Duna3Bronce,Activa,Rechazado + inspección,Rechazado sin contraseña en respuesta
+D-009,ACC-ING-009,ingreso.soporte@dsqa.test,Duna3Plata,Activa,Aceptado + almacenamiento,Sin contraseña legible
+D-010,ACC-ING-010,ingreso.usuario@dsqa.test,Llave8Norte,Activa,Función de otro rol (PA-04),Acceso denegado
+D-011,ACC-ING-011,ingreso.admin@dsqa.test,Torre5Oeste,Activa,Válido con teclado,Sesión iniciada
+D-012,ACC-ING-012,ingreso.usuario@dsqa.test,Llave8Este,Activa,Incorrecta con lector,Rechazado
+D-013A,ACC-ING-013,ingreso.usuario@dsqa.test,Llave8Norte,Activa,Válido en computador,Sesión iniciada
+D-013B,ACC-ING-013,ingreso.usuario@dsqa.test,Llave8Oeste y luego Llave8Norte,Activa,Rechazo y válido en móvil,Rechazado y luego sesión
