@@ -1,0 +1,10 @@
+id_dato,caso,cuenta,contrasena,pantalla,condicion_sesion,resultado_esperado
+D-001,ACC-REC-001,sesion.usuario@dsqa.test,Brujula7Mar,Perfil,Vigente,Misma identidad tras recargar
+D-002,ACC-REC-002,sesion.soporte@dsqa.test,Ancla2Rojo,Pantalla tras el ingreso,Vigente,Mismas opciones del rol
+D-003,ACC-REC-003,sesion.usuario@dsqa.test,Brujula7Mar,Función restringida (PA-04),Vigente,Acceso denegado antes y después
+D-004,ACC-REC-004,sesion.usuario@dsqa.test,Brujula7Mar,Perfil,Vigente; 3 recargas cada 2 min,Caducidad igual
+D-005,ACC-REC-005,sesion.usuario@dsqa.test,Brujula7Mar,Perfil,Caducada (PA-01),Cierre y nuevo ingreso
+D-006,ACC-REC-006,sesion.soporte@dsqa.test,Ancla2Rojo,Perfil,Rechazada como inválida (PA-02),Cierre y nuevo ingreso
+D-007,ACC-REC-007,sesion.usuario@dsqa.test,Brujula7Mar,Perfil,Vigente; solo teclado,Controles accesibles
+D-008A,ACC-REC-008,sesion.soporte@dsqa.test,Ancla2Rojo,Perfil en 1366×768,Vigente,Legible
+D-008B,ACC-REC-008,sesion.soporte@dsqa.test,Ancla2Rojo,Perfil en 390×844,Vigente,Legible
