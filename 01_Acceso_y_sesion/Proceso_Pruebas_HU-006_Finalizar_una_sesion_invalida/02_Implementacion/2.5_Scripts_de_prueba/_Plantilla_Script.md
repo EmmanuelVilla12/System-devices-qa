@@ -1,0 +1,23 @@
+# SCR-ACC-INV-NNN · <Nombre del caso>
+
+[Índice de casos](../2.4_Casos_de_prueba/_Plantilla_Caso.md) · [Caso asociado](../2.4_Casos_de_prueba/ACC-INV-NNN.md) · [Matriz](../2.2_Matriz_de_trazabilidad.md)
+
+**Estado del artefacto:** borrador.
+
+| Elemento | Contenido |
+|---|---|
+| Nombre | SCR-ACC-INV-NNN |
+| Descripción | Pasos y puntos de verificación para comprobar: … |
+| Caso asociado | [ACC-INV-NNN](../2.4_Casos_de_prueba/ACC-INV-NNN.md) · CA-HU-006-NN |
+| Preparación | Precondiciones del caso confirmadas; datos D-NNN de 2.3 disponibles; estado inicial del punto de control. |
+
+| N.º | Tipo | Paso o punto de verificación | Resultado esperado |
+|---|---|---|---|
+| 1 | Paso | Una sola acción por fila. | Respuesta observable o «—». |
+| 2 | Verificación | Qué se revisa. | Resultado esperado observable. |
+
+**Estado final esperado:** …
+
+**Al terminar:** registrar el estado (Pasó / Falló / Bloqueado), el primer paso divergente y la evidencia en 3.2 Registro de ejecución.
+
+**Al terminar:** registrar el estado (Pasó / Falló / Bloqueado), el primer paso divergente y la evidencia en [3.2 Registro de ejecución](../../03_Ejecucion/3.2_Registro_de_ejecucion.md).

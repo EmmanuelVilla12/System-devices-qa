@@ -1,0 +1,6 @@
+id_dato,caso,nombre,correo,rol,particion,resultado_esperado
+D-001,ACC-INV-001,Camila Rondon,camila.rondon@dsqa.test,Usuario,Válido (sesión caducada),Cierre sesión + solicitar nuevo ingreso
+D-002,ACC-INV-002,Mateo Salazar,mateo.salazar@dsqa.test,Usuario,Válida en app, rechazada por servicio,Cierre sesión + solicitar nuevo ingreso
+D-003,ACC-INV-003,Luis Garcia,luis.garcia@dsqa.test,Usuario,Sesión cerrada, no se recupera pantalla protegida,Requiere nuevo ingreso
+D-004,ACC-INV-004,Fernando Lozada,fernando.lozada@dsqa.test,Soporte,Sesión válida, rol sin permiso para la función,Mostrar "Acceso denegado", sesión conserva
+D-005,ACC-INV-005,Kevin Arias,kevin.arias@dsqa.test,Administrador,Mensaje legible en computador y teléfono,dos tamaños,Mensaje identificable y legible
