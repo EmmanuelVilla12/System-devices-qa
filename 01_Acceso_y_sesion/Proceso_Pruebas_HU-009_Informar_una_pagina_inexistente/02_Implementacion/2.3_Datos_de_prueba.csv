@@ -1,0 +1,10 @@
+﻿ID,Descripcion,Valor,Estado_inicial,Observaciones
+D-001A,Direccion ficticia inexistente,/g5-pruebas/pagina-inexistente-001,No corresponde a pantalla real,Verificar en ambiente
+D-002A,Visitante,Sin sesion iniciada,Navegador sin autenticacion,No requiere cuenta
+D-003A,Cuenta autenticada,qa.hu009.usuario@dsqa.test,Cuenta ficticia habilitada,Preparar en ambiente autorizado
+D-003B,Contrasena autenticada,Prueba-HU009-2026!,Credencial ficticia,No usar fuera del ambiente de pruebas
+D-004A,Direccion de pantalla protegida,Pendiente de confirmar,Pantalla existente,Consultar PA-02
+D-005A,Cuenta autenticada sin permiso,qa.hu009.sinpermiso@dsqa.test,Cuenta ficticia sin permiso,Preparar en ambiente autorizado
+D-005B,Contrasena sin permiso,Acceso-HU009-2026!,Credencial ficticia,No usar fuera del ambiente de pruebas
+D-006A,Resolucion computador,1366x768,Visualizacion de escritorio,Referencia visual
+D-006B,Resolucion movil,390x844,Visualizacion movil,Referencia visual
